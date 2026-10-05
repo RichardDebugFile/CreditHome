@@ -38,5 +38,8 @@ keystore.properties
 /app/debug/
 /app/qa/
 
+# --- Notas y archivos locales (backlog, borradores) ---
+_local/
+
 # --- Logs ---
 *.log
