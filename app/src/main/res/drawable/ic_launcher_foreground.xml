@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Techo protector superior (Home Arch) -->
+    <path
+        android:pathData="M27,48 L54,26 L81,48"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="27"
+                android:startY="37"
+                android:endX="81"
+                android:endY="37"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981"/>
+                <item android:offset="1.0" android:color="#38BDF8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Estructura de la Casa / Marco de Crédito -->
+    <path
+        android:pathData="M35,52 L35,79 A4,4 0 0 0 39,83 L69,83 A4,4 0 0 0 73,79 L73,52"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="35"
+                android:startY="68"
+                android:endX="73"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8"/>
+                <item android:offset="1.0" android:color="#2563EB"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Barras de Crecimiento Financiero / Amortización -->
+    <!-- Barra 1 (Inicial) -->
+    <path
+        android:pathData="M44,75 L44,67"
+        android:strokeWidth="4.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"/>
+
+    <!-- Barra 2 (Media) -->
+    <path
+        android:pathData="M54,75 L54,59"
+        android:strokeWidth="4.5"
+        android:strokeColor="#34D399"
+        android:strokeLineCap="round"/>
+
+    <!-- Barra 3 (Objetivo / Crecimiento) -->
+    <path
+        android:pathData="M64,75 L64,51"
+        android:strokeWidth="4.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"/>
+
+</vector>

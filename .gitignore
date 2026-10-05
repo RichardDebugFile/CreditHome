@@ -1,0 +1,42 @@
+# --- Gradle / Kotlin ---
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx/
+
+# --- IDEs (configuración local de cada desarrollador) ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Configuración local y secretos ---
+local.properties
+secrets.properties
+env.properties
+.env
+.env.*
+
+# --- Llaves, certificados y keystores (firma de APK y firma electrónica .p12) ---
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+
+# --- Artefactos de compilación y datos ---
+*.apk
+*.aab
+*.ap_
+*.dex
+/app/release/
+/app/debug/
+/app/qa/
+
+# --- Logs ---
+*.log

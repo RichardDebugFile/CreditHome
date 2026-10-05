@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Círculo de Fondo Oscuro -->
+    <path
+        android:pathData="M64,64m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0"
+        android:fillColor="#111827" />
+
+    <!-- Techo Estilizado -->
+    <path
+        android:pathData="M38,58 L64,36 L90,58"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="36"
+                android:endX="90"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#34D399"/>
+                <item android:offset="1.0" android:color="#38BDF8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Base en 'U' (Muros y Suelo) -->
+    <path
+        android:pathData="M44,66 L44,90 A4,4 0,0 0 48,94 L80,94 A4,4 0,0 0 84,90 L84,66"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="44"
+                android:startY="66"
+                android:endX="84"
+                android:endY="94"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8"/>
+                <item android:offset="1.0" android:color="#2563EB"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Barra 1 (Baja - Inicial) -->
+    <path
+        android:pathData="M52,86 L52,78"
+        android:strokeWidth="5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Barra 2 (Media) -->
+    <path
+        android:pathData="M64,86 L64,70"
+        android:strokeWidth="5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+
+    <!-- Barra 3 (Alta - Meta Financiera) -->
+    <path
+        android:pathData="M76,86 L76,64"
+        android:strokeWidth="5"
+        android:strokeColor="#34D399"
+        android:strokeLineCap="round" />
+
+</vector>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Fondo circular con profundidad sutil -->
+    <path
+        android:pathData="M48,48m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"
+        android:fillColor="#131B2E" />
+
+    <!-- Tejado estilizado con degradado Verde -> Azul Cian -->
+    <path
+        android:pathData="M24,42 L48,22 L72,42"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="32"
+                android:endX="72"
+                android:endY="32"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" /> <!-- Verde esmeralda -->
+                <item android:offset="0.5" android:color="#06B6D4" /> <!-- Cian -->
+                <item android:offset="1.0" android:color="#3B82F6" /> <!-- Azul -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Estructura inferior de la casa (paredes y piso unificado) -->
+    <path
+        android:pathData="M30,45 L30,71 C30,73.2 31.8,75 34,75 L62,75 C64.2,75 66,73.2 66,71 L66,45"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#2563EB" /> <!-- Azul cobalto sólido -->
+
+    <!-- Barra 1 (Crecimiento inicial) -->
+    <path
+        android:pathData="M38,68 L38,59"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" /> <!-- Cian claro -->
+
+    <!-- Barra 2 (Media) -->
+    <path
+        android:pathData="M48,68 L48,51"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#10B981" /> <!-- Verde fintech -->
+
+    <!-- Barra 3 (Máxima expansión) -->
+    <path
+        android:pathData="M58,68 L58,43"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#34D399" /> <!-- Verde menta brillante -->
+
+</vector>

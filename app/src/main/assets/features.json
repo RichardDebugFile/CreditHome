@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "features": {
+    "auth_and_roles_enabled": false,
+    "soft_token_security_enabled": false,
+    "single_session_enforced": false,
+    "superadmin_role_enabled": false,
+    "audit_log_enabled": false,
+    "vps_auto_update_enabled": false,
+    "smtp_email_enabled": false,
+    "rabbitmq_sync_enabled": false,
+    "vps_server_url": "https://api.tu-vps.com"
+  },
+  "metadata": {
+    "environment": "production",
+    "updatedAt": "2026-09-20",
+    "description": "Configuración de Feature Flags para CreditHome (Modo local independiente)"
+  }
+}
