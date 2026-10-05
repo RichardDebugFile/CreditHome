@@ -43,8 +43,9 @@ android {
         applicationId = "com.alfas.amortizacioncredito"
         minSdk = 28
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        // Fuente única de versión: gradle.properties (APP_VERSION_NAME / APP_VERSION_CODE)
+        versionCode = providers.gradleProperty("APP_VERSION_CODE").get().toInt()
+        versionName = providers.gradleProperty("APP_VERSION_NAME").get()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

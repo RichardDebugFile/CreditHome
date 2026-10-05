@@ -148,6 +148,18 @@ cp secrets.properties.example secrets.properties
 
 ---
 
+## 🌳 Ramas y Versionado
+
+El proyecto usa **Git Flow** y **SemVer**:
+
+- `main` → producción (cada versión con tag `vX.Y.Z`)
+- `develop` → integración de la próxima versión
+- `feature/*`, `bugfix/*`, `release/*`, `hotfix/*` → ramas de trabajo
+
+La versión de la app se define en [`gradle.properties`](gradle.properties) (`APP_VERSION_NAME`, `APP_VERSION_CODE`). Detalles del flujo, convenciones de commits y Pull Requests en [CONTRIBUTING.md](CONTRIBUTING.md). Historial de cambios en [CHANGELOG.md](CHANGELOG.md).
+
+---
+
 ## 📄 Licencia
 
 Desarrollado para la gestión y administración financiera privada de **CreditHome**. Todos los derechos reservados.
